@@ -28,7 +28,7 @@ const projects = [
     {
         title: 'Rental Cars',
         url: 'https://github.com/harmeet651/RentalCars',
-        image: 'rentalcars.png',
+        image: 'car.png',
         description: 'ASP .Net (MVC) application for a manager to manage the customers and cars of the store he/she owns',
         prize: '',
         tags: {
@@ -41,7 +41,7 @@ const projects = [
     {
         title: 'Weather Teller',
         url: 'https://github.com/harmeet651/WeatherApp',
-        image: 'weatherapp.png',
+        image: 'weather.png',
         description: 'App to get weather and forcast information of any city',
         prize: '',
         tags: {
