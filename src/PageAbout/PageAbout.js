@@ -12,7 +12,7 @@ class PageAbout extends Component {
           <div className="wrapper d-none d-sm-block">
             <div className="title">
               <div id="avatarDiv">
-                <img className="avatarImg" src="https://media.licdn.com/dms/image/C5603AQHJxIKc54qyjA/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=8eDxitxniHlOBwKAKKOC_aS-RPraVBOVIQeFwx4-ols"></img>
+                {/* <img className="avatarImg" src="https://photos.app.goo.gl/K2hxiX3ndAk4bXMJ7" alt="Harmeet"></img> */}
               </div>
               <div id="textDiv">
                <h1 className="text-center">Harmeet Singh</h1>
@@ -24,7 +24,7 @@ class PageAbout extends Component {
           <div className="d-xs-none d-sm-none"> {/**This is for little screens */}
           
               <div id="avatarDiv">
-                <img className="avatarImgSmall"  src="https://media.licdn.com/dms/image/C5603AQHJxIKc54qyjA/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=8eDxitxniHlOBwKAKKOC_aS-RPraVBOVIQeFwx4-ols"></img>
+                {/* <img className="avatarImgSmall" src="https://photos.app.goo.gl/K2hxiX3ndAk4bXMJ7" alt="Harmeet"></img> */}
               </div>
               <div id="textDiv">
                <h2 className="text-center">Harmeet Singh</h2>
@@ -35,7 +35,7 @@ class PageAbout extends Component {
           
 
           <p className="my-4">
-           I am a Software Developer and currently doing Master's in Computer Science from <i>University of Southern California.</i>
+           I am a Software Development Engineer at Amazon.com. I completed my Master's in Computer Science from <i>University of Southern California.</i>
            <br/>
            My main focus has been Full Stack Web Develoment and some Game Develoment and I like to learn new technologies and frameworks.
            <br/>

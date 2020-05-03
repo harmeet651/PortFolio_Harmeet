@@ -28,7 +28,7 @@ const projects = [
     {
         title: 'Rental Cars',
         url: 'https://github.com/harmeet651/RentalCars',
-        image: 'rentalcars.png',
+        image: 'car.png',
         description: 'ASP .Net (MVC) application for a manager to manage the customers and cars of the store he/she owns',
         prize: '',
         tags: {
@@ -41,7 +41,7 @@ const projects = [
     {
         title: 'Weather Teller',
         url: 'https://github.com/harmeet651/WeatherApp',
-        image: 'weatherapp.png',
+        image: 'weather.png',
         description: 'App to get weather and forcast information of any city',
         prize: '',
         tags: {
@@ -54,7 +54,7 @@ const projects = [
     {
         title: 'WordPlay VR',
         url: 'https://github.com/harmeet651/WordPlay-Vr-Site',
-        image: 'wordplay.png',
+        image: 'words.png',
         description: 'Scalable, virtual reality word puzzle game with high quality prefabs, changable parameters through mobile app, the game is for exercise purpose also',
         prize: '',
         tags: {
@@ -106,7 +106,7 @@ const projects = [
     {
         title: 'Space Ball',
         url: 'https://github.com/harmeet651/SpaceBall',
-        image: 'spaceball.png',
+        image: 'ball.png',
         description: 'Endless runner mobile game which gets difficult with time',
         prize: '',
         tags: {
