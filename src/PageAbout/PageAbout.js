@@ -12,7 +12,7 @@ class PageAbout extends Component {
           <div className="wrapper d-none d-sm-block">
             <div className="title">
               <div id="avatarDiv">
-                {/* <img className="avatarImg" src="https://photos.app.goo.gl/K2hxiX3ndAk4bXMJ7" alt="Harmeet"></img> */}
+                <img className="avatarImg" src="https://photos.app.goo.gl/K2hxiX3ndAk4bXMJ7" alt="Harmeet"></img>
               </div>
               <div id="textDiv">
                <h1 className="text-center">Harmeet Singh</h1>
@@ -21,10 +21,10 @@ class PageAbout extends Component {
             </div>
           </div>
 
-          <div className="d-xs-none d-sm-none"> {/**This is for little screens */}
+          <div className="d-xs-none d-sm-none"> *This is for little screens
           
               <div id="avatarDiv">
-                {/* <img className="avatarImgSmall" src="https://photos.app.goo.gl/K2hxiX3ndAk4bXMJ7" alt="Harmeet"></img> */}
+                <img className="avatarImgSmall" src="https://photos.app.goo.gl/K2hxiX3ndAk4bXMJ7" alt="Harmeet"></img>
               </div>
               <div id="textDiv">
                <h2 className="text-center">Harmeet Singh</h2>
