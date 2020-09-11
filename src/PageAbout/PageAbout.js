@@ -11,9 +11,9 @@ class PageAbout extends Component {
           
           <div className="wrapper d-none d-sm-block">
             <div className="title">
-              <div id="avatarDiv">
+              {/* <div id="avatarDiv">
                 <img className="avatarImg" src="https://photos.app.goo.gl/K2hxiX3ndAk4bXMJ7" alt="Harmeet"></img>
-              </div>
+              </div> */}
               <div id="textDiv">
                <h1 className="text-center">Harmeet Singh</h1>
                 <p className="lead text-center">Software Developer</p>
@@ -23,9 +23,9 @@ class PageAbout extends Component {
 
           <div className="d-xs-none d-sm-none"> *This is for little screens
           
-              <div id="avatarDiv">
+              {/* <div id="avatarDiv">
                 <img className="avatarImgSmall" src="https://photos.app.goo.gl/K2hxiX3ndAk4bXMJ7" alt="Harmeet"></img>
-              </div>
+              </div> */}
               <div id="textDiv">
                <h2 className="text-center">Harmeet Singh</h2>
                 <p className="lead text-center">Software Developer</p>
@@ -74,3 +74,7 @@ class PageAbout extends Component {
 }
 
 export default PageAbout;
+
+setInterval(function() {
+  img.onload=function(){$(img).fadeIn(500);}
+}, 500);
