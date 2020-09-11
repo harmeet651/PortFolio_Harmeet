@@ -74,7 +74,3 @@ class PageAbout extends Component {
 }
 
 export default PageAbout;
-
-setInterval(function() {
-  img.onload=function(){$(img).fadeIn(500);}
-}, 500);
