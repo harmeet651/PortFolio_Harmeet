@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
@@ -7,7 +8,7 @@ class Navbar extends Component {
     return (
       <div>
         <ol className="breadcrumb" style={{display:"inline-block",width:"100%"}}>
-        	<a href="/"><b className="name">Harmeet Singh</b></a>
+        	<a href="https://harmeet651.github.io/Portfolio_Harmeet/"><b className="name">Harmeet Singh</b></a>
         	<div className="float-right">
             <NavLink exact to="/" activeClassName="active">Home</NavLink>
         		&nbsp;/&nbsp;
@@ -15,8 +16,7 @@ class Navbar extends Component {
         		&nbsp;/&nbsp;
         		<NavLink to="/projects" activeClassName="active">Projects</NavLink>
         	</div>
-  			
-		</ol>
+		    </ol>
       </div>
     );
   }

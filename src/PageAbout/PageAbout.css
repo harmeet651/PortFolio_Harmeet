@@ -4,7 +4,6 @@
     padding-left: 5px;
   }
   
-  
   .sectionBox.card:hover {
       background: #53bdd0 !important;
       color:white;
@@ -16,19 +15,13 @@
       -ms-transition: all 0.3s ease;
   }
   
-  
   .sectionBox {
       color: black;
-  
   }
-  
-  
-  
   
   .sectionBox.card .section-icon {
       font-size: 80px;
   }
-  
   
   .sectionBox.card:hover .section-icon{
       color:white;
@@ -63,12 +56,10 @@
       -ms-transition: all 0.3s ease;
   }
   
-  
   .personalInfoBox {
       padding-bottom: 10px !important; 
       padding-top: 10px !important;
   }
-  
   
   .contact a {
       color: black;
@@ -79,26 +70,16 @@
       text-decoration:none;
   }
   
-  .contactMethods {
-  
-  }
-  
-  
   .contactIcon {
       font-size: 30px;
       display:block;
       margin-top: -15px;
       margin-bottom: -10px;
-  
-  
   }
   
   .contactText {
-  
       font-size: 0.8em;
-  
   }
-  
   
   .avatarImg {
       width: 100px;
@@ -112,7 +93,6 @@
       border-radius: 15px;
       margin-bottom:5px;
   }
-  
   
   .title div {
       float: left;

@@ -11,13 +11,11 @@
 	text-align:center;
 }
 
-
-
 @media (min-width: 992px) {  /*On big screens, reduce width of resume to look better*/
-	#cvImg {
+	#cv {
 		display:block;
 		margin:auto;
-		width: 80%;
+		width: 100%;
+		min-height: 100vh;
 	}
-
 }
